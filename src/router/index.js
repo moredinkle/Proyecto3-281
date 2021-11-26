@@ -2,6 +2,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+/*import Principal from '../components/Principal.vue'
+import Galeria from '../components/Galeria.vue'
+import Mecanicas from '../components/Mecanicas.vue'
+import Videos from '../components/Videos.vue'
+import RealidadAumentada from '../components/RealidadAumentada.vue'
+import Jugar from '../components/Jugar.vue'*/
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -13,9 +20,6 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
 ]
