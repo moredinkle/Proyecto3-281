@@ -15,7 +15,8 @@
         src="@/assets/logo-barra.png"
       >
       </v-img>
-      <v-toolbar-title class="Titulo">EL LUSTRA KOMBAT</v-toolbar-title>
+      <v-toolbar-title class="TituloP" v-if="$vuetify.breakpoint.xsOnly">EL LUSTRA KOMBAT</v-toolbar-title>
+      <v-toolbar-title class="Titulo" v-else>EL LUSTRA KOMBAT</v-toolbar-title>
 
       <v-spacer></v-spacer>
     </v-app-bar>
@@ -73,6 +74,13 @@ export default {
   font-family: "Judson", serif;
   letter-spacing: 6px;
   font-size: 30px;
+  font-weight: 100;
+}
+
+.TituloP {
+  font-family: "Judson", serif;
+  letter-spacing: 4px;
+  font-size: 17px;
   font-weight: 100;
 }
 

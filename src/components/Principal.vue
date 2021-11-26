@@ -47,7 +47,46 @@
       </div>
 
       <!-- Videos-->
-      <div class="Videos my-10 py-16">
+      <div class="Videos my-10 py-16" v-if="$vuetify.breakpoint.xsOnly">
+        <v-row justify="center">
+          <h1 class="white--text disp">VIDEOS</h1>
+        </v-row>
+
+        <v-row justify="center" class="my-5">
+          <v-col cols="12">
+            <h2 class="white--text">Trailer</h2>
+          </v-col>
+          <v-col cols="12">
+            <iframe
+              width="auto"
+              height="100%"
+              src="https://www.youtube.com/embed/6Xr7itHoF6g"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </v-col>
+        </v-row>
+
+        <v-row justify="center" class="my-5">
+          <v-col cols="12">
+            <h2 class="white--text">Corto</h2>
+          </v-col>
+          <v-col cols="12">
+            <iframe
+              width="auto"
+              height="100%"
+              src="https://www.youtube.com/embed/gteeIAJnHy8"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </v-col>
+        </v-row>
+      </div>
+
+
+      <div class="Videos my-10 py-16" v-else>
         <v-row justify="center">
           <h1 class="white--text disp">VIDEOS</h1>
         </v-row>
@@ -124,7 +163,23 @@
         </v-hover>
       </div>
       <!-- Realidad Aumentada-->
-      <div class="AR my-10 py-16">
+      <div class="AR my-10 py-16" v-if="$vuetify.breakpoint.xsOnly">
+        <v-row justify="center">
+          <h1 class="white--text disp my-10">REALIDAD AUMENTADA</h1>
+          <v-col cols="12">
+            <iframe
+              width="auto"
+              height="100%"
+              src="https://www.youtube.com/embed/viDHOje4AmA"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </v-col>
+        </v-row>
+      </div>
+
+      <div class="AR my-10 py-16" v-else>
         <v-row justify="center">
           <h1 class="white--text disp my-10">REALIDAD AUMENTADA</h1>
           <v-col cols="12">
