@@ -58,8 +58,8 @@
           </v-col>
           <v-col cols="12">
             <iframe
-              width="auto"
-              height="100%"
+              width="350"
+              height="197"
               src="https://www.youtube.com/embed/6Xr7itHoF6g"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -74,8 +74,8 @@
           </v-col>
           <v-col cols="12">
             <iframe
-              width="auto"
-              height="100%"
+              width="350"
+              height="197"
               src="https://www.youtube.com/embed/gteeIAJnHy8"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -168,8 +168,8 @@
           <h1 class="white--text disp my-10">REALIDAD AUMENTADA</h1>
           <v-col cols="12">
             <iframe
-              width="auto"
-              height="100%"
+              width="350"
+              height="197"
               src="https://www.youtube.com/embed/viDHOje4AmA"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
